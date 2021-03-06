@@ -1,39 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Midterm-Final</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <link rel="stylesheet" href="main.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div id="container">
-
-
-        <div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obesity</title>
+    <link href="menu.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <!-- This is title "Obesity" and the image of a heart -->
+    <div class="box">
+        <div class="intro">
+            <img src="heart.png" alt="hearty" style="width: 100px; height: 100px;">
             <div>
-                <img src="logo.png" alt="logo" class="logo">
-                <h3 class="name">NUTRITIONAL SPACES</h3>
-                <h3 class="title1">THE IMPACT OF</h3>
-                <h1 class="fastfood">FAST FOOD</h1>
-                <h3 class="title1">ON HEALTH</h3>
+                <h1 style="text-align: center;">Obesity</h1>
+                <p style="text-align: center;">Obesity rate in Canada in 2019</p>
             </div>
+        </div>
+
+    <!-- Has percentage of long-term consumption information -->
+        <div class="percentage">
+            <img src="person.png" alt="donut" style="float:left; width:120px; height:120px; margin-left: 50px;">
             <div>
-                <img src="icon1.png" atlt="" class="nofastfood">
-                <h4 class="scroll">Scroll down</h4>
-                <img src="scrolldownicon.png" alt="" class="scroll-img">
+                <h1>27.7%</h1>
+                <p style="padding-left:10px;">Percentage of people obese due to long-term fast food consumption</p>
             </div>
-            <br><br>
+        </div>
+        
+    <!-- This has 2 rows and 2 column talking about obesity rate -->
+        <div id="rate">
+            <h3 style="text-align: center; margin-top: 50px;">Obesity rate according to the gender based on:</h3>
+            <h4 style="text-align: center;">Body Mass Index</h4>
+            <!-- 1st row -->
+            <div class="row"  style="text-align:center;">
+                <!-- First column -->
+                <div class="col">
+                    <img src="male.png" style="width: 100px; height: 100px;">
+                    <h5>26.3%</h5>
+                </div>
+                <!-- Second column -->
+                <div class="col">
+                    <img src="female.png" style="width: 100px; height: 100px;">
+                    <h5>18.2%</h5>
+                </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="row" style="text-align: center;">
+                <h4>Waist - Hip Pressure</h4>
+                <!-- Third column -->
+                <div class="col">
+                    <img src="male.png" style="width: 100px; height: 100px;">
+                    <h5>21.9%</h5>
+                </div>
+                <!-- Fourth column -->
+                <div class="col">
+                    <img src="female.png" style="width: 100px; height: 100px;">
+                    <h5>40.1%</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Type of foods info section -->
+        <div class="consume">
+            <!-- Sandwich info -->
+            <h3 style="text-align:center;">Type of foods that sociated with obesity</h3>
             <div>
-                <h1 class="ff-mean">WHAT IS FAST FOOD?</h1>
-                <img src="burger.png" alt="" class="burger-img">
-                <h4 class="click">Click to the hamburger</h4>
+                <img src="hamburger.png" alt="sandwich" style="float: left; width: 100px;
+                height: 100px;">
+                <p style="margin-left:5px;">35% of sanwich consumption</p>
             </div>
+            <!-- Pizza info -->
+            <div>
+                <img src="pizza.png" alt="pizza" style="float: left; width: 100px;
+                height: 100px;">
+                <p style="margin-left:5px;">40% of pizza consumption</p>
+            </div>
+            <!-- Fired chicken info -->
+            <div>
+                <img src="fried-chicken.png" alt="chicken" style="float:left; width: 100px;
+                height: 100px;">
+                <p style="margin-left:5px;">80% of chicken consumption</p>
+            </div>
+        </div>
 
-
-
+        <!-- The last section -->
+        <div class="info">
+            <h3>Canadians increased their consumption of fast food by 35% at the onset of the pandemic.
+            <h3>Through the above information, the number of obese people has also increased, negatively affecting everyone's health.
+            <p>Click the heart to see further information</h3>
+            <img src="heart.png" alt="return" style="width: 100px; height: 100px;">
         </div>
     </div>
-    </body>
+</body>
 </html>
