@@ -9,13 +9,12 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
-    height: 600px;
     background-color: rgba(250, 246, 235, 0.905);
     overflow: scroll;
     border: 10px solid red;
