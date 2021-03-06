@@ -1,3 +1,5 @@
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -10,23 +12,29 @@ html, body {
     align-items: center;
 }
 
-#container {
+#botton-firstpage {
+    display: none;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 320px;
+    height: 600px;
     background-color: rgba(250, 246, 235, 0.905);
-    overflow: scroll;
     border: 10px solid red;
     border-radius: 2%;
 }
+
 
 /*------------------------------------First Page - Header------------------------------------*/
 
 /*Logo*/
 .logo {
-    width: 50px;
-    height: 20px;
+    width: 70px;
+    height: 60px;
 }
 
 .name {
@@ -55,7 +63,7 @@ html, body {
 
 .nofastfood {
     width: 100px;
-    height: 50px;
+    height: 100px;
 }
 
 /*scroll down*/
