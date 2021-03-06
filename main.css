@@ -1,95 +1,83 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #FAF6EB;
-    font-family: 'Roboto', sans-serif; 
-}
-
-/*#container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
-    min-height: 500px;
-    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(250, 246, 235, 0.905);
+    overflow: scroll;
+    border: 10px solid red;
     border-radius: 2%;
-}*/
+}
+
 /*------------------------------------First Page - Header------------------------------------*/
 
 /*Logo*/
 .logo {
-    width: 150px;
-    height: 120px;
-    margin-left: 46%;
+    width: 50px;
+    height: 20px;
 }
 
 .name {
-    font-size: 25px;
+    font-size: 18px;
     background: -webkit-linear-gradient(#6B9DDA, #D86BDA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
-    justify-content: center;
     font-weight: 900;
 }
 
 /*title*/
 
 .title1{
-    font-size: 25px;
+    font-size: 18px;
     color: #1E3454;
-    text-align: center;
-    justify-content: center;
     font-weight: 500;
 }
 .fastfood {
-    font-size: 72px;
+    font-size: 48px;
     color:#C0A153;
     text-shadow:5px 5px 0 #2F4C6F;
-    justify-content: center;
-    text-align: center;
     font-weight: 500;
 }
 
 /*main images*/
 
 .nofastfood {
-    width: 500px;
-    height: 480px;
-    margin-left: 38%;
+    width: 100px;
+    height: 50px;
 }
 
 /*scroll down*/
 
 .scroll {
-    font-size: 20px;
-    justify-content: center;
-    text-align: center;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .scroll-img {
-    width: 130px;
-    height: 100px;
-    margin-left: 47%;
+    width: 70px;
+    height: 50px;
 }
 
 /*What is fast food*/
 .ff-mean {
-    text-align: center;
-    justify-content: center;
-    font-size: 35px;
+    font-size: 24px;
     color: #1E3454;
 }
 
-.burger-img{
-    margin-left: 37%;
-}
 
 .click{
-    text-align: center;
-    justify-content: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
