@@ -1,4 +1,4 @@
-
+/* Reset */
 
 html, body {
     margin: 0;
@@ -10,7 +10,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1E3454
 }
+
+.fl{
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
 
 .bg {
     display: flex;
@@ -18,9 +28,6 @@ body{
     align-items: center;
 }
 
-#botton-firstpage {
-    display: none;
-}
 
 .container {
     display: flex;
@@ -95,6 +102,10 @@ body{
     font-size: 16px;
 }
 
+
+#botton-firstpage {
+    display: none;
+}
 /* first-page end */
 
 
@@ -129,7 +140,7 @@ body{
 
 #wronganswer img{
     width: 200px;
-    height: 160px;
+    height: 180px;
 }
 #BackToQuiz {
     display: flex;
@@ -164,3 +175,35 @@ body{
     height: 60px;
 }
 /* Correctanswer end */
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.noDisplay{
+    display: none;
+}
+
+/* Third page start */
+
+#third-page{
+    font-size: 16px;
+}
+
+#third-page img{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+/* Third page end */
+
+/* Fourth page start */
+
+#fourth-page img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Fourth page end */
