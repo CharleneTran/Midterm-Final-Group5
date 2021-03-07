@@ -1,4 +1,4 @@
-
+/* Reset */
 
 html, body {
     margin: 0;
@@ -13,15 +13,21 @@ body{
     color: #1E3454
 }
 
+.fl{
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
 .bg {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#botton-firstpage {
-    display: none;
-}
 
 .container {
     display: flex;
@@ -96,6 +102,10 @@ body{
     font-size: 16px;
 }
 
+
+#botton-firstpage {
+    display: none;
+}
 /* first-page end */
 
 
@@ -170,3 +180,30 @@ p{
     font-size: 20px;
     text-align: center;
 }
+
+.noDisplay{
+    display: none;
+}
+
+/* Third page start */
+
+#third-page{
+    font-size: 16px;
+}
+
+#third-page img{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+/* Third page end */
+
+/* Fourth page start */
+
+#fourth-page img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Fourth page end */
