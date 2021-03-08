@@ -224,7 +224,6 @@ div, p{
 .answer {
     font-size: 26px;
     font-weight: 900;
-    margin-top: 60px;
 }
 
 .question {
@@ -233,7 +232,7 @@ div, p{
     border: 1px solid #D8C68D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: white;
-    padding: 20px; 
+    padding: 15px; 
     text-align: center;
 }
 
@@ -268,30 +267,29 @@ div, p{
 .question2 {
     font-size: 20px;
     font-weight: 900;
-    margin-top: 220px;
     text-align: center;
 }
 
 .fat-belly {
     width: 300px;
     height: 220px;
-    margin-top: 0px;
 }
 
 .effects {
+    display: none;
     font-size: 16px;
     border-radius: 10px;
     border: 1px solid #D8C68D;
     padding: 10px;
     background-color: white;
-    width: 350px;
-    text-align: center;
+    width: 280px;
+    line-height: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .quiz2 {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 
 .quiz-ques{
@@ -301,8 +299,15 @@ div, p{
 
 /* After first quesion end */
 
+/* Seventeenth page start */
+
+
+
+/* Seventeenth page end */
+
 #second-page, #third-page, #fourth-page, #fifth-page,#sixth-page, #seventh-page,#eighth-page,
-#nineth-page,#tenth-page,#eleventh-page,#twelfth-page,
- #wronganswer, #correctanswer, .noDisplay, #botton-firstpage {
+#nineth-page,#tenth-page,#eleventh-page,#twelfth-page,#thirteenth-page,#seventeenth-content,
+#fourteenth-page,#fifteenth-page,#sixteenth-page,#seventeenth-page,#eighteenth-page,
+#wronganswer1, #correctanswer1,#wronganswer2, #correctanswer2, .noDisplay, #botton-firstpage {
     display: none;
 }

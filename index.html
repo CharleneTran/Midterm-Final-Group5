@@ -226,6 +226,7 @@
                     <p class="noDisplay" id="p5">Carbs, sugars in fast foods and processed foods can increase the acid
                         in
                         the mouth that breaks down tooth enamel, causing tooth decay.</p>
+                    <h3>Summary</h3>
                     <img src="wrong.png" width="120" height="120" alt="icon" onclick="p6Clicked()">
                     <p class="noDisplay" id="p6">Fast food is significantly harmful to everyone's health, it not only
                         makes
@@ -239,24 +240,24 @@
             <div id="twelfth-page">
                 <div class="container">
                     <h2>Let’s take a short quiz !</h2>
-                    <img src="quiz.png" width="100" height="100" alt="icon" onclick="QuizClicked()">
+                    <img src="quiz.png" width="100" height="100" alt="icon" onclick="QuizClicked1()">
                     <p>Click to the quiz button and take a quiz about what we learned.</p>
                 </div>
             </div>
 
             <div id="question-page1" style="display:none;"></div>
 
-            <div id="question-page2" style="display:none;"></div>
 
-            <div id="wronganswer">
+
+            <div id="wronganswer1">
                 <div class="container">
                     <p>Oops,you're almost there. Please try again</p>
                     <img src="./Wrong.png" alt="">
-                    <div id="BackToQuiz" onclick="BacktoQuiz()">TRY AGAIN!</div>
+                    <div id="BackToQuiz" onclick="BacktoQuiz1()">TRY AGAIN!</div>
                 </div>
             </div>
 
-            <div id="correctanswer">
+            <div id="correctanswer1">
                 <div class="container">
                     <img src="./Right.png" alt="" id="correct">
                     <span>YOU WON!!!</span>
@@ -267,11 +268,11 @@
 
             <div id="thirteenth-page">
                 <div class="container">
-                    <h1 class="answer">DID YOU KNOW</h1>
+                    <h2 class="answer">DID YOU KNOW</h2>
                     <h3 class="question">
                         How much calories in a hamburger?
                     </h3>
-                    <img class="hamburger-icon" src="hamburger1.png" alt="" onclick="ListClicked()" />
+                    <img class="hamburger-icon" src="hamburger1.png" alt="" onclick="ListClicked1()">
                     <h3 class="burger-name">Ground beef burger</h3>
                     <div class="calories">
                         <p id="burger-nutri">
@@ -286,35 +287,113 @@
                         </p>
                     </div>
                     <br>
-                    <p class="clickhere" onclick="ListClicked()"> Click here to see hamburger's nutrition</p>
-                    <br><br>
+                    <p class="clickhere" onclick="ListClicked1()"> Click here to see hamburger's nutrition</p>
+                    <div class="bottom-part">
+                        <div id="Next11" onclick="FourteenthPage()"></div>
+                    </div>
                 </div>
             </div>
 
             <div id="fourteenth-page">
                 <div class="container">
                     <h3 class="question2">How does it effect to our health?</h3>
-                    <img class="fat-belly" src="Fat-belly.png" alt="" />
+                    <img class="fat-belly" src="Fat-belly.png" alt="" onclick="ListClicked2()" />
                     <div class="effects">
-                        <p>
-                            There will be a massive surge of glucose after 15 minutes of biting hamburger.<br><br>
-                            In a few hours people could feel hungry. However, if we repeat this process, it could cause
-                            diabtese.<br><br>
-                            Hamburger is usually loaded with the satured fat which causes major illness such cardic
-                            disease.<br><br>
-                            Huge consumption of sodium could impact negatively on our bloss vessels.<br><br>
-                        </p>
+                        There will be a massive surge of glucose after 15 minutes of biting hamburger.
+                        In a few hours people could feel hungry. However, if we repeat this process, it could cause
+                        diabtese.
+                        Hamburger is usually loaded with the satured fat which causes major illness such cardic
+                        disease.
+                        Huge consumption of sodium could impact negatively on our bloss vessels.
                     </div>
-                    <br><br><br>
-                    <img class="quiz2" src="quiz.png" alt="" o />
+                    <div class="bottom-part">
+                        <div id="Next12" onclick="FifteenthPage()"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fifteenth-page">
+                <div class="container">
+                    <img class="quiz2" src="quiz.png" alt="" onclick="QuizClicked2()">
                     <p class="quiz-ques">Click to icon to taking 2nd quiz</p>
-                    <br><br>
+                </div>
+            </div>
+
+            <div id="question-page2" style="display:none;"></div>
+
+            <div id="wronganswer2">
+                <div class="container">
+                    <p>Oops,you're almost there. Please try again</p>
+                    <img src="./Wrong.png" alt="">
+                    <div id="BackToQuiz" onclick="BacktoQuiz2()">TRY AGAIN!</div>
+                </div>
+            </div>
+
+            <div id="correctanswer2">
+                <div class="container">
+                    <img src="./Right.png" alt="" id="correct">
+                    <span>YOU WON!!!</span>
+                    <p>Click Here! To see the results and for more information</p>
+                    <img src="./heart.png" alt="" id="heart" onclick="SixteenthPage()">
+                </div>
+            </div>
+
+            <div id="sixteenth-page">
+                <div class="container">
+                    <div id="header">
+                        <h2 style="text-align: center;">DID YOU KNOW</h2>
+                    </div>
+                    <div id="second_info">
+                        <img src="jumping-rope.png" alt="jumping-rope" width="120px" height="120px"
+                            onclick="ListClicked3()">
+                        <p style="display:none; padding: 10px;">You'd have to jump rope for exactly 61 minutes to work
+                            off a fat and
+                            carlorie-laden burger.</p>
+                    </div>
+                    <div class="bottom-part">
+                        <div id="Next13" onclick="SeventeenthPage()"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="seventeenth-page">
+                <div class="container">
+                    <div id="third_info">
+                        <h2>How to build healthy eating habits?</h2>
+                        <img src="Heathy-lastpage.png" alt="vege" width="250px" height="200px" onclick="ListClicked4()">
+                        <div id="seventeenth-content">
+                            <div>1. Choose whole foods instead of processed</div>
+                            <div>2. Say no sugar drinks and fast foods</div>
+                            <div>3. Keep healthy food readily avaiable</div>
+                            <div>4. Eat more fish</div>
+                            <div>5. Go for nuts</div>
+                            <div>6. Add more probiotic foods to your diet</div>
+                            <div>7. Concentrate on nutrients instead of calories, this will enchance the quality of the
+                                diet.</div>
+                        </div>
+                    </div>
+                    <div class="bottom-part">
+                        <div id="Next14" onclick="EighteenthPage()"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="eighteenth-page">
+                <div class="container">
+                    <div id="last_info">
+                        <img src="receive.png" width="100px" height="100px">
+                        <p style="margin-bottom: 100px;">Healthy eating for a healthy life</p>
+                        <img src="logo.png" width="100px" height="90px">
+                        <h3 class="name">NUTRITIONAL SPACES</h3>
+                        <p>Please use our app to have healthy eating habits</p>
+                        <img src="icon1.png" alt="" class="nofastfood">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="./page9.js"></script>
+    <script src="./Listclick.js"></script>
     <script src="./Button.js"></script>
     <script src="./infor.js"></script>
     <script src="./wronganswer.js"></script>
