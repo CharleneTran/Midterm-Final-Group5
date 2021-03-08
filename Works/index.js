@@ -1,5 +1,5 @@
-document.querySelector("#question-page1").innerHTML = questionPage("question-page1","./quiz.png","Q1",": How Many calories does ground beef hamburger have?","./hamburger1.png","choice1","choice2","454.9","367.9","550","500","wrong1","correct1")
-document.querySelector("#question-page2").innerHTML = questionPage("question-page2","./quiz.png","Q2",": How much time you need to spend on exercise to burn the total hamburger calories?","./jumping-rope.png","choice1","choice2","2 hours","30 mins","61 mins","10 mins","wrong2","correct2")
+document.querySelector("#question-page1").innerHTML = questionPage("question-page1","./Works/quiz.png","Q1",": How Many calories does ground beef hamburger have?","./Works/hamburger1.png","choice1","choice2","454.9","367.9","550","500","wrong1","correct1")
+document.querySelector("#question-page2").innerHTML = questionPage("question-page2","./Works/quiz.png","Q2",": How much time you need to spend on exercise to burn the total hamburger calories?","./Works/jumping-rope.png","choice1","choice2","2 hours","30 mins","61 mins","10 mins","wrong2","correct2")
 document.querySelector("#Next1").innerHTML = NextUI("Next1")
 document.querySelector("#Next2").innerHTML = NextUI("Next2")
 document.querySelector("#Next3").innerHTML = NextUI("Next3")

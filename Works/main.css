@@ -196,12 +196,13 @@ div, p{
 
 /* Wronganswer start */
 
-#wronganswer img{
+#wronganswer1 img,
+#wronganswer2 img{
     width: 200px;
     height: 180px;
 }
 
-#BackToQuiz {
+.BackToQuiz {
     display: flex;
     justify-content: center;
     align-items: center;
