@@ -222,18 +222,18 @@ div, p{
 /* Correctanswer start */
 
 
-#correct {
+.correct {
     width: 200px;
     height: 140px;
     margin-left: 15px;
 }
 
-#heart {
+.heart {
     width: 60px;
     height: 60px;
 }
 
-#heart:hover{
+.heart:hover{
     cursor: pointer;
 }
 /* Correctanswer end */
