@@ -54,26 +54,22 @@
             <div id="third-page">
                 <div class="container">
                     <h3>Fast food includes:</h3>
+                    <img src="burn.png">
                     <div>
-                        <img src="burn.png">
                         High in calories 294,9 kcal
-                    </div><br>
-                    <hr>
+                    </div>
+                    <img src="fat.png">
                     <div>
                         High in fat 14 g
-                        <img src="fat.png">
-                    </div><br>
-                    <hr>
+                    </div>
+                    <img src="butter.png">
                     <div>
-                        <img src="butter.png">
                         High in satured and trans fat 30g
-                    </div><br>
-                    <hr>
+                    </div>
+                    <img src="carb.png">
                     <div>
                         High in simple carbs 3.2g
-                        <img src="carb.png">
                     </div>
-                    <hr>
                     <div class="bottom-part">
                         <div id="Next2" onclick="FourthPage()"></div>
                     </div>
@@ -83,15 +79,15 @@
             <div id="fourth-page">
                 <div class="container">
                     <div>
-                        <img src="sugar.png" alt="icon">
+                        
                         High in sugar 0.3g
                     </div>
-                    <hr>
+                    <img src="sugar.png" alt="icon">
                     <div>
                         High in sodium 414 mg
-                        <img src="salt.png" alt="icon">
+                        
                     </div>
-                    <hr>
+                    <img src="salt.png" alt="icon">
                     <div>Here is the list that causing the individuals health </div>
                     <img class="heart" src="heart.png" alt="icon">
                     <div class="bottom-part">
@@ -105,13 +101,13 @@
                 <div class="container">
                     <div class="header" style="margin-bottom: 50px;">
                         <img src="heart.png" alt="hearty" style="width: 100px; height: 100px;">
-                        <h1>Obesity</h1>
+                        <h2>Obesity</h2>
                         <p>Obesity rate in Canada in 2019</p>
                     </div>
                     <div class="percentage">
                         <img src="person.png" alt="donut"
-                            style="float:left; width:120px; height:120px; margin-left: 50px;">
-                        <h1>27.7%</h1>
+                            style="width:120px; height:120px;">
+                        <h2>27.7%</h2>
                         <p style="padding-left:10px;">Percentage of people obese due to long-term fast food consumption
                         </p>
                     </div>
@@ -153,17 +149,17 @@
                 <div class="container">
                     <!-- Sandwich info -->
                     <h3>Type of foods that sociated with obesity</h3>
-                    <div>
+                    <div id="top-seven">
                         <p><img id="demoimage" src="hamburger.png" alt="sandwich" width="100px" height="100px">
                             35% of sanwich consumption</p>
                     </div>
                     <!-- Pizza info -->
-                    <div>
+                    <div id="mid-seven">
                         <p><img id="demoimage" src="pizza.png" alt="pizza" width="100px" height="100px">
                             40% of pizza consumption</p>
                     </div>
                     <!-- Fired chicken info -->
-                    <div>
+                    <div id="bottom-seven">
                         <p><img id="demoimage" src="fried-chicken.png" alt="chicken" width="100px" height="100px">
                             80% of chicken consumption</p>
                     </div>
@@ -251,7 +247,7 @@
 
             <div id="wronganswer1">
                 <div class="container">
-                    <p>Oops,you're almost there. Please try again</p>
+                    <h3>Oops,you're almost there. Please try again</h3>
                     <img src="./Wrong.png" alt="">
                     <div id="BackToQuiz" onclick="BacktoQuiz1()">TRY AGAIN!</div>
                 </div>
@@ -260,8 +256,8 @@
             <div id="correctanswer1">
                 <div class="container">
                     <img src="./Right.png" alt="" id="correct">
-                    <span>YOU WON!!!</span>
-                    <p>Click Here! To see the results and for more information</p>
+                    <h3>YOU WON!!!</h3>
+                    <p>Click the heart! To see the results and for more information</p>
                     <img src="./heart.png" alt="" id="heart" onclick="ThirteenthPage()">
                 </div>
             </div>
@@ -383,7 +379,7 @@
                     <div id="last_info">
                         <img src="receive.png" width="100px" height="100px">
                         <p style="margin-bottom: 100px;">Healthy eating for a healthy life</p>
-                        <img src="logo.png" width="100px" height="90px">
+                        <img src="logo.png" class="logo" width="100px" height="90px" onclick="BacktoFront()">
                         <h3 class="name">NUTRITIONAL SPACES</h3>
                         <p>Please use our app to have healthy eating habits</p>
                         <img src="icon1.png" alt="" class="nofastfood">

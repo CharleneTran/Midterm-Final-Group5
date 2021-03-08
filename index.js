@@ -142,3 +142,8 @@ function EighteenthPage(){
     document.querySelector("#seventeenth-page").style.display = "none"
     document.querySelector("#eighteenth-page").style.display = "block"
 }
+
+function BacktoFront(){
+    document.querySelector("#eighteenth-page").style.display = "none"
+    document.querySelector("#top-firstpage").style.display = "block"
+}
