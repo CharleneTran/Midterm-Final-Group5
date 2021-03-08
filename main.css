@@ -4,14 +4,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: #1E3454;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1E3454
-}
 
 .fl{
     float: left;
@@ -21,6 +16,11 @@ body{
     float: right;
 }
 
+
+div, p{
+    font-size: 16px;
+    text-align: center;
+}
 
 .bg {
     display: flex;
@@ -37,14 +37,27 @@ body{
     width: 320px;
     height: 600px;
     background-color: rgba(250, 246, 235, 0.905);
-    border: 10px solid red;
+    border: 15px solid #000;
     border-radius: 2%;
 }
 
+.bottom-part {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 320px;
+    height: 50px;
+}
+
+.onclick:hover,
+.burger-img:hover,
+.bottom-part div:hover{
+    cursor: pointer;
+}
 
 /*------------------------------------First Page - Header------------------------------------*/
 
-/*Logo*/
+
 .logo {
     width: 70px;
     height: 60px;
@@ -58,13 +71,12 @@ body{
     font-weight: 900;
 }
 
-/*title*/
-
 .title1{
     font-size: 18px;
     color: #1E3454;
     font-weight: 500;
 }
+
 .fastfood {
     font-size: 48px;
     color:#C0A153;
@@ -72,14 +84,10 @@ body{
     font-weight: 500;
 }
 
-/*main images*/
-
 .nofastfood {
     width: 100px;
     height: 100px;
 }
-
-/*scroll down*/
 
 .scroll {
     font-size: 16px;
@@ -91,10 +99,8 @@ body{
     height: 50px;
 }
 
-/*What is fast food*/
 .ff-mean {
     font-size: 24px;
-    color: #1E3454;
 }
 
 
@@ -103,12 +109,52 @@ body{
 }
 
 
-#botton-firstpage {
-    display: none;
-}
+
 /* first-page end */
 
+/* Second page start */
 
+#second-page .top-second{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Second page end */
+
+/* Third page start */
+
+#third-page{
+    font-size: 16px;
+}
+
+#third-page img{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+
+/* Third page end */
+
+/* Fourth page start */
+
+#fourth-page img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Fourth page end */
+
+/* Sixth page start */
+
+#sixth-page .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Sixth page end */
 
 /* question-page start */
 
@@ -160,9 +206,6 @@ body{
 
 /* Correctanswer start */
 
-#correctanswer span{
-    
-}
 
 #correct {
     width: 200px;
@@ -176,34 +219,90 @@ body{
 }
 /* Correctanswer end */
 
-p{
+
+/* After first quesion start */
+.answer {
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+.question {
     font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #D8C68D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    padding: 20px; 
     text-align: center;
 }
 
-.noDisplay{
-    display: none;
+.hamburger-icon {
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
 }
 
-/* Third page start */
-
-#third-page{
+.calories {
+    display: none;
+    border-radius: 10px;
+    border: 1px solid #D8C68D;
+    line-height: 30px;
+    background-color: white;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 16px;
 }
 
-#third-page img{
-    width: 50px;
-    height: 50px;
-    margin: 0 5px;
+.total span {
+    font-weight: bolder;
 }
 
-/* Third page end */
-
-/* Fourth page start */
-
-#fourth-page img{
-    width: 50px;
-    height: 50px;
+.clickhere {
+    font-size: 15px;
 }
 
-/* Fourth page end */
+/*-----------------------Part 2--------------------------------*/
+
+.question2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 220px;
+    text-align: center;
+}
+
+.fat-belly {
+    width: 300px;
+    height: 220px;
+    margin-top: 0px;
+}
+
+.effects {
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #D8C68D;
+    padding: 10px;
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quiz2 {
+    width: 80px;
+    height: 80px;
+}
+
+.quiz-ques{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* After first quesion end */
+
+#second-page, #third-page, #fourth-page, #fifth-page,#sixth-page, #seventh-page,#eighth-page,
+#nineth-page,#tenth-page,#eleventh-page,#twelfth-page,
+ #wronganswer, #correctanswer, .noDisplay, #botton-firstpage {
+    display: none;
+}

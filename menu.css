@@ -39,9 +39,3 @@ html,body {
     flex-wrap: wrap;
     width: 100%;
 }
-
-@media screen and (min-width: 800px) {
-    .column {
-        flex: 1;
-    }
-}
